@@ -1,0 +1,142 @@
+.nav-link:hover{
+    text-decoration:underline;
+    font-size: 18px;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 3px;
+}
+.nav-link{
+    color: #FAF9F6 !important;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+span{
+    color: aqua;
+}
+.home-container{
+    padding-top: 300px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+.home-page{
+    background-image: url(../assets/home/background-home-desktop.jpg);
+}
+.home-col1{
+    justify-content: center;
+}
+
+.home-col1 h1, h3,p{
+    color: white;
+}
+.home-col1 h1, h3{
+    text-transform: capitalize;
+}
+.home-col1 h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: left;
+}
+.home-col1 h1{
+    font-family: 'Bellefair', serif;
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-align: left;
+    
+}
+.home-col1 P{
+    width: 60%;
+    text-align:justify;
+    
+}
+.home-col2{
+    justify-content: center;
+}
+.home-col2 Button{
+    background-color: white;
+    color: black;
+    border-width: 1px;
+    border-color: #979797;
+    border-radius: 50%;
+    padding: 65px 35px;
+    font-size: 25px;
+    font-family: 'Bellefair', serif;
+}
+.home-col2 Button:hover{
+    color: black;
+    background-color: aqua;
+    border-width: 40px;
+    border-color: gray;
+    padding: 65px 35px;
+    font-size: 25px;
+}
+/*Destination*/
+.destination-page{
+   background-image: url(../assets/destination/background-destination-desktop.jpg);
+}
+.planet-img{
+    width: 300px;
+    height: 300px;
+}
+.destination-container{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.destination-container span{
+    color: aqua;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.destination-container h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2rem;
+}
+.destination-heading{
+    margin-bottom: 40px;
+}
+.tab-col-left{
+    display: flex;
+    justify-content: center;
+}
+.tab-col-right{
+    color: white;
+    margin-top: 20px;
+}
+.tab-col-right p, hr, h2{
+    display: flex;
+    justify-content: center;
+}
+.tab-col-right h2{
+    font-family: 'Bellefair', serif;
+    font-size: 4em;
+    text-transform:uppercase;
+}
+.tab-col-right p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.tab-col-right h6{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+}
+.tab-col-right h3{
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+}
+.nav.nav-pills .nav-link{
+    font-family: 'Barlow Condensed', sans-serif;
+    
+}
+.nav.nav-pills .nav-link.active {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: underline;
+    text-decoration-style:solid;
+    text-decoration-thickness: 3px;
+    text-decoration-color: aqua;
+}
+.nav.nav-pills .nav-link:hover{
+text-decoration: underline;
+text-decoration-color: aqua;
+text-decoration-thickness: 3px;
+color: white;
+}
+
