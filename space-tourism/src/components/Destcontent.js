@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
 
-const Tabcontent = (props) => {
+const Destcontent = (props) => {
   return (
     <div>
       <Container>
@@ -35,4 +35,4 @@ const Tabcontent = (props) => {
   )
 }
 
-export default Tabcontent;
+export default Destcontent;

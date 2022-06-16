@@ -7,7 +7,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 const Home = () => {
   return (
     <div className='home-page'>
-        <Header className="text-decoration-underline"/>
+        <Header />
         <Container className='home-container'>
           <Row>
             <Col sm={8} className='home-col1'>

@@ -1,24 +1,41 @@
 .nav-link:hover{
-    text-decoration:underline;
-    font-size: 18px;
+    text-decoration: underline;
     text-decoration-color: aqua;
     text-decoration-thickness: 3px;
 }
 .nav-link{
     color: #FAF9F6 !important;
     font-size: 18px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: bold;
 }
 
 span{
     color: aqua;
 }
+.hero h3{
+    padding-top: 50px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2rem;
+}
 .home-container{
     padding-top: 300px;
     padding-bottom: 100px;
     padding-left: 100px;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .home-container{
+        padding-top: 30px;
+    }
+    .home-page{
+        background-image: url(../assets/home/background-home-desktop.jpg);
+        background-position-x: center;
+        background-position-y: bottom;
+    }
+  }
 .home-page{
     background-image: url(../assets/home/background-home-desktop.jpg);
 }
@@ -78,20 +95,13 @@ span{
     height: 300px;
 }
 .destination-container{
-    padding-top: 70px;
     padding-bottom: 50px;
 }
 .destination-container span{
     color: aqua;
     font-family: 'Barlow Condensed', sans-serif;
 }
-.destination-container h3{
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 2rem;
-}
-.destination-heading{
-    margin-bottom: 40px;
-}
+
 .tab-col-left{
     display: flex;
     justify-content: center;
@@ -127,16 +137,110 @@ span{
     
 }
 .nav.nav-pills .nav-link.active {
-    background-color: rgba(0, 0, 0, 0);
-    text-decoration: underline;
-    text-decoration-style:solid;
-    text-decoration-thickness: 3px;
-    text-decoration-color: aqua;
+    background-color: aqua;
+    color: black !important;
+    text-decoration: none;
 }
 .nav.nav-pills .nav-link:hover{
-text-decoration: underline;
-text-decoration-color: aqua;
-text-decoration-thickness: 3px;
-color: white;
+    background-color: aqua;
+    color: black !important;
+    text-decoration: none;
 }
 
+/*cre page*/
+.crew-page{
+    background-image: url(../assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+.crew-col-1{
+    padding-top: 60px;
+}
+.crew-col-1 span{
+    font-size: 2em;
+    font-family: 'Bellefair', serif;
+    text-transform: uppercase;
+}
+.crew-col-1 h3{
+    font-size: 2.5em;
+    font-family: 'Bellefair', serif;
+    text-transform: uppercase;
+    color: white;
+}
+.crew-col-1 p{
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .crew-page{
+        background-image: url(../assets/crew/background-crew-mobile.jpg);
+        background-size: cover;
+        min-height: 100vh;
+    }
+    .crew-col-1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+  }
+.carousel img{
+    width: 400px;
+    height: 400px;
+
+    /*Technology*/
+}
+.technology-page{
+    background-image: url(../assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+        min-height: 100vh;
+}
+.tech-tab{
+    margin-left: 30px;
+}
+.tech-tab .nav-link{
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 4px;
+    cursor: pointer;
+    font-family: 'Bellefair', serif;
+}
+/*Techcontent*/
+.technology-col-2 img{
+    width: 100%;
+
+}
+.technology-col-1 h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #D0D6F9;
+    padding-top: 10px;
+}
+.technology-col-1 h3{
+    font-family: 'Bellefair', serif;
+    color: #FFFFFF;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+.technology-col-1 p{
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+.technology-col-2{
+    margin-right: 0px;
+}
+@media only screen and (max-width: 768px) {
+    .technology-col-1 p, h3, h5{
+        text-align: center;
+    }
+}
