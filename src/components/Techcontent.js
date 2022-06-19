@@ -2,7 +2,6 @@ import React from 'react'
 import './style.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Technology'
-import space from '../assets/technology/image-space-capsule-landscape.jpg'
 
 const Techcontent = (props) => {
   return (

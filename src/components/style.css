@@ -244,3 +244,48 @@ span{
         text-align: center;
     }
 }
+/*passengers*/
+.passengers-container{
+    background-image: url(../assets//crew/background-crew-desktop.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+.people-in-space{
+    color: white;
+    text-align: center;
+}
+.people-in-space h3{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', serif;
+}
+  .passenger-card-container{
+    margin: 10px 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: center;
+    
+  }
+  .passenger-card{
+    background-color: white;
+    width: 200px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 3px;
+    align-items: center;
+  }
+  .passenger-card img{
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+  }
+  .passenger-card-textbox{
+    background-color: #66ff99;
+    color: black;
+    text-align: center;
+    width: 100%;
+  }
