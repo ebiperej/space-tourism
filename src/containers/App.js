@@ -4,7 +4,7 @@ import Home from '../components/Home';
 import Crew from '../components/Crew';
 import Destination from '../components/Destination';
 import Technology from '../components/Technology';
-import Passengers from "../components/Passengers";
+
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
             <Route path="/crew" element={<Crew />}/>
             <Route path="/destination" element={<Destination />}/>
             <Route path= "technology" element={<Technology />}/>
-            <Route path="passengers" element={<Passengers />}/>
+           {/* <Route path="passengers" element={<Passengers />}/>*/}
         </Routes>
       </BrowserRouter>
   );
