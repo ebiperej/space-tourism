@@ -5,7 +5,7 @@ class Cardlist extends Component {
     constructor(){
         super();
         this.state = {
-            passengers: ''
+            passengers: [],
         }
 
     }
@@ -17,10 +17,20 @@ class Cardlist extends Component {
 
   render() {
     const {passengers} = this.state;
-    console.log(passengers[1])
     return (
-      <div>
-        <Card />
+      <div className='card-list'>
+        {
+          passengers.map((p, i)=>{
+            return(
+              <Card 
+              key={i}
+              name={passengers[i].name}
+              craft={passengers[i].craft}
+              image={[i]}
+              />
+            );
+          })
+        }
       </div>
     )
   }

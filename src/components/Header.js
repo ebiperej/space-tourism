@@ -16,7 +16,7 @@ const Header = () => {
         <Nav.Link href="/destination"><span>01</span> DESTINATION</Nav.Link>
         <Nav.Link href="/crew"><span>02</span> CREW</Nav.Link>
         <Nav.Link href="/technology"><span>03</span> TECHNOLOGY</Nav.Link>
-        {/*<Nav.Link href="/passengers"><span>04</span> Passengers</Nav.Link>*/}
+        <Nav.Link href="/passengers"><span>04</span> Passengers</Nav.Link>
       </Nav>
     </Navbar.Collapse>
     </Container>

@@ -289,3 +289,11 @@ span{
     text-align: center;
     width: 100%;
   }
+  .passenger-card-textbox h6{
+    color: white;
+  }
+  .card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
