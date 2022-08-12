@@ -1,18 +1,17 @@
 import React, { Component } from 'react'
 import Card from './Card'
-
+const Endpoint = 'https://jsonplaceholder.typicode.com/users'
 class Cardlist extends Component {
     constructor(){
         super();
         this.state = {
             passengers: [],
         }
-
     }
     componentDidMount() {
-        fetch('http://api.open-notify.org/astros.json')
+       fetch('https://jsonplaceholder.typicode.com/users')
           .then(response=> response.json())
-          .then(data => this.setState({ passengers: data.people}))
+          .then(data => this.setState({ passengers: data}))
       }
 
   render() {
@@ -25,7 +24,8 @@ class Cardlist extends Component {
               <Card 
               key={i}
               name={passengers[i].name}
-              craft={passengers[i].craft}
+              craft={passengers[i].email}
+              phone={passengers[i].phone}
               image={[i]}
               />
             );

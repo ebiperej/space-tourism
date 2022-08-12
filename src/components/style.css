@@ -280,17 +280,17 @@ span{
   }
   .passenger-card img{
     width: 100%;
-    border-radius: 9px;
+    border-radius: 50px;
     margin-bottom: 9px;
+    background-color: #66ff99;
   }
   .passenger-card-textbox{
-    background-color: #66ff99;
     color: black;
     text-align: center;
     width: 100%;
   }
   .passenger-card-textbox h6{
-    color: white;
+    color: darkblue;
   }
   .card-list{
     display: flex;
